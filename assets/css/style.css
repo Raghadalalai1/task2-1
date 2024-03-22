@@ -258,6 +258,19 @@ text-shadow: 0px 0px 10px white;
 font-size:30px;
 
 }
+.header p {
+
+    font-size: small;
+    
+    
+    
+    
+    }
+    .header button {
+
+        padding: 10px 20px;
+    
+    }
 }
 @media (max-width:492px)
 {
