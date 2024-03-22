@@ -160,6 +160,7 @@ text-shadow: 0px 0px 10px white;
     width: 100%;
     padding: 50px;
     background-color:rgb(236, 234, 234);
+    flex-wrap: wrap;
    
 
 }
@@ -168,7 +169,7 @@ text-shadow: 0px 0px 10px white;
     flex-direction: column;
     justify-content: space-around;
     gap: 30px;
-    width: 50%;
+    width: 500px;
    
     
     
@@ -176,12 +177,10 @@ text-shadow: 0px 0px 10px white;
 .parent1 .child2 .son1 {
    
     font-weight: 400;
-    font-family:Roboto ;
     font-size: xx-large;
 
 }
 .parent1 .child2 .son2 {
-    font-family:Roboto ;
     font-weight: 400;
     font-size: small;
     
@@ -189,7 +188,6 @@ text-shadow: 0px 0px 10px white;
 }
 .parent1 .child2 .son3{
     color: rgb(99, 98, 98);
-    font-family:Roboto ;
     font-weight: 300;
     font-size: small;
     
@@ -287,9 +285,22 @@ font-size:30px;
     .parent .child1 {
         width: 300px;
     }
+    .parent1 .child2 {
+        width: 300px;
+    }
     
 }
 @media (max-width:587px)
+{
+
+    .parent .child2 {
+    
+        margin-bottom: 50px;
+        
+    }
+
+}
+@media (max-width:786px)
 {
 
     .parent .child2 {
@@ -307,6 +318,12 @@ font-size:30px;
         
         
     }
+    .parent1 .child2 {
+        width: 200px;
+    
+        
+        
+    }
     .parent .child1 .son1 {
    
         font-size: larger;
@@ -318,7 +335,63 @@ font-size:30px;
         width: 100px;
         
     }
+        .parent1 .child1 {
+    
+        width: 100px;
+        
+    }
+    .parent1 .child2 .son1 {
+   
+        font-weight: 500;
+        font-size: larger;
+    
+    }
 
+}
+@media (max-width:877px)
+{
+    .parent1 .child1 {
+    
+        margin-bottom: 50px;
+        
+    }
+
+}
+@media (max-width:439px)
+{
+
+    .parent1 .child2 {
+
+        width: 230px;
+    }
+    .parent .child1 {
+
+        width: 230px;    
+    }
+}
+@media (max-width:350px)
+{
+
+    .parent1 .child2 {
+
+        width: 200px;
+    }
+    .parent .child1 {
+
+        width: 200px;
+    }
+}
+@media (max-width:333px)
+{
+
+    .parent1 .child2 {
+
+        width: 160px;
+    }
+    .parent .child1 {
+
+        width: 160px; 
+    }
 }
 
 
