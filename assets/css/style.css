@@ -203,15 +203,15 @@ text-shadow: 0px 0px 10px white;
 .part5{
     width: 100%;
     background-color: rgb(80, 75, 75);
+ 
     
 }
 .part5 p{
     color: white;
-    font-family: Roboto;
     font-weight: 300;
     font-size: larger;
     text-align: center;
-    padding: 50px;
+    padding: 50px 0px;
    
     
 }
@@ -282,6 +282,11 @@ font-size:30px;
     border-radius: 40px; 
     padding: 3px 10px ;
 }
+.nav1 ul li .a2 {
+    
+    line-height: 40px;
+
+}
 
 
 }
@@ -351,6 +356,13 @@ font-size:30px;
         font-weight: 500;
         font-size: larger;
     
+    }
+    .part5 p{
+       
+        font-weight: 400;
+        font-size: medium;
+       
+        
     }
 
 }
