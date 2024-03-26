@@ -182,8 +182,8 @@
 .parent .child2 {
 
     width: 200px;
-    position: relative;
-    top: 40px;
+    /* position: relative;
+    top: 40px; */
 
 }
 
@@ -258,8 +258,7 @@
 .parent1 .child1 {
 
     width: 200px;
-    position: relative;
-    top: 50px;
+
 
 }
 
